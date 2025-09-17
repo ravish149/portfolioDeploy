@@ -3,32 +3,31 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    title: " QuickGPT",
+    description: "AI-Powered Chat and Image Generation Platform Integrated With Google Gemini API.",
+    image: "/projects/project1__.png",
+    tags: ["React", "TailwindCSS", "Node", "Express", "MongoDB", "JWT", "Bcryptjs", "ImageKit", "Stripe"],
+    demoUrl: "https://quick-gpt-frontend-flax.vercel.app/",
+    githubUrl: "https://github.com/ravish149/QuickGPT",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
-    description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+    title: "Real Time Chat App",
+    description: "A simple and robust real time chat application",
+    image: "/projects/project2_.png",
+    tags: ["React", "TailwindCSS", "Node", "Express", "MongoDB", "JWT", "Bcryptjs", "Socket.io"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/ravish149/chat-App",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "CNN Model",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+      " Micro-Doppler Classification of Human Movements using CNN",
+    image: "/projects/project3_.png",
+    tags: ["Python", "TensorFlow","Keras","NumPy","SciPy", "PyWavelets", "OpenCV","Matplotlib"," Scikit-learn"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://drive.google.com/file/d/1BuFvZUGV8qGtHjAb_glS1mJror_HSnFc/view?usp=sharing",
   },
 ];
 
@@ -100,7 +99,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/ravish149"
           >
             Check My Github <ArrowRight size={16} />
           </a>

@@ -16,8 +16,7 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
+              I specialize in creating responsive, accessible, and performant web
               applications using modern technologies.
             </p>
 
@@ -35,7 +34,7 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href=""
+                href="https://drive.google.com/file/d/18raLi97g86IyZypzPU0y_kZ38LcqiK4g/view?usp=sharing"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
